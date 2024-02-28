@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_KEY = st.secrets.api_key
+API_KEY = st.secrets["api_key"]
 
 
 def get_data(place, forecast_days):
